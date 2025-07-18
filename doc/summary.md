@@ -1,6 +1,4 @@
-### 项目概述
-
-`@kne-template/fastify-lib` 是一个用于快速创建 Fastify 插件库的模板项目。它提供了一个预设的项目结构和基础功能，帮助开发者快速搭建基于 Fastify 的plugin项目。
+`@kne-template/fastify-libs` 是一个用于快速创建 Fastify 插件库的模板项目。它提供了一个预设的项目结构和基础功能，帮助开发者快速搭建基于 Fastify 的plugin项目。
 
 ### 项目结构
 
@@ -40,45 +38,7 @@ template/
 
 ### 使用方法
 
-#### 安装依赖
-
 ```bash
-npm install
+npx @kne/npm-tools init 项目名
 ```
-
-#### 开发
-
-```bash
-# 启动开发服务器
-npm run dev
-
-# 构建文档
-npm run build:md
-
-# 实时预览文档
-npm run start:md
-```
-
-#### 代码格式化
-
-```bash
-# 格式化代码
-npm run prettier
-```
-
-### 依赖项
-
-#### 核心依赖
-
-- `fastify-plugin`: Fastify 插件系统
-- `@kne/fastify-namespace`: 命名空间管理
-- `@kne/fastify-sequelize`: Sequelize ORM 集成
-
-#### 开发依赖
-
-- `@fastify/env`: 环境变量管理
-- `fastify`: Web 框架
-- `husky`: Git hooks 管理
-- `nodemon`: 开发热重载
-- `prettier`: 代码格式化
-- `sqlite3`: 开发用数据库
+选择 Fastify Libs
