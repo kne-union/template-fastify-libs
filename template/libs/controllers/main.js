@@ -1,7 +1,7 @@
 const fp = require('fastify-plugin');
 
 module.exports = fp(async (fastify, options) => {
-  const { services } = fastify.project;
+  const { services } = fastify[options.name];
   fastify.get(
     `${options.prefix}/welcome`,
     {
