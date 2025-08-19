@@ -1,6 +1,6 @@
 {
   "name": "@kne-template/fastify-libs",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "用于初始化一个fastify的插件库",
   "main": "index.js",
   "scripts": {

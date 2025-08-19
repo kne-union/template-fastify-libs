@@ -6,7 +6,7 @@ module.exports = fp(async (fastify, options) => {
     {},
     {
       dbTableNamePrefix: 't_',
-      name: '<%=templateLibs.camelCase(name,{caseStyle:"lower"})%>'
+      name: '<%=name.replace(/^fastify-/,"")%>'
     },
     options
   );
